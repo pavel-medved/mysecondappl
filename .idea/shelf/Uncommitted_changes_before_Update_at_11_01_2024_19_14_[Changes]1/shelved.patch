@@ -1,0 +1,15 @@
+Index: app/src/main/java/com/example/mysecondappl/PathsAdapter.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/mysecondappl/PathsAdapter.kt b/app/src/main/java/com/example/mysecondappl/PathsAdapter.kt
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/mysecondappl/PathsAdapter.kt	
+@@ -0,0 +1,4 @@
++package com.example.mysecondappl
++
++class PathsAdapter {
++}
+\ No newline at end of file

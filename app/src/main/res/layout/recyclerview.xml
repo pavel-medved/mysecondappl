@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvLine"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="7dp"
+    app:cardElevation="6dp"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/llLine"
+        android:layout_width="393dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="80dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="3dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Item"
+            android:textSize="@dimen/small_text"
+            android:gravity="start"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Location"
+            android:textSize="@dimen/small_text"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D2d2d2"
+            android:text="duration"
+            android:textSize="@dimen/small_text"
+            android:textStyle="italic"
+            android:gravity="end"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
